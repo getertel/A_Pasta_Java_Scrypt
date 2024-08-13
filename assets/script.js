@@ -28,12 +28,12 @@ function sum(a, b) {
 }
 
 //criando uma aero function
- let subtract = (a, b) => {
-    let resultado = a - b;
-    return resultado
- }
+// let subtract = (a, b) => {
+  //  let resultado = a - b;
+   // return resultado
+ //}
 let x = sum(25, 60)
-let y = subtract(59, 30)
+//let y = subtract(59, 30)
 
 console.log(x)
 console.log(y)
