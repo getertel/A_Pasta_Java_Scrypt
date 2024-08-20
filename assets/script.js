@@ -1,15 +1,39 @@
 // tipos de variaveis:
 
-let idade = 59       //tipo number
+let idade = 18       //tipo number
 let nome = "boniec"  //tipo string
 let logado = true    //tipo boolean
+ 
+//Novo Tema: Criando condicionais de execução
+//if (idade == 18) {
+  //  console.log("Parabéns, agora vc pode ser preso!")
+//}
 
-// array e objetos
+//outro exemplo:
+if(nome == "bonieco") {
+  console.log("mensagem especial")
+} else {
+  console.log("mensagem normal")
+}
 
-let ingredientes = ["farinha!", "agua", "sal!", "açucar!", "ovos!"]
-console.log(ingredientes[1])
+ //alguns tipos de condicionais
+ /* ==
+    !=
+    >
+    <
+    >=
+    <=
+*/
 
-let personagem = {
+
+
+
+//Tema: array e objetos
+
+/* let ingredientes = ["farinha!", "agua", "sal!", "açucar!", "ovos!"]
+ console.log(ingredientes[1])
+
+ let personagem = {
     nome: "Geter",
     condicao: "fase dificil,",
     oqueFazer: "Aguardando ajuda de Deus.",
@@ -19,7 +43,7 @@ let personagem = {
 
 console.log(personagem.dores, personagem.condicao, ingredientes[2], personagem.vai)
 
-//criando funções
+//Tema: criando funções
 
 function sum(a, b) {
     let resultado = a + b;
@@ -27,7 +51,7 @@ function sum(a, b) {
    
 }
 
-//criando uma aero function
+//Tema: criando uma aero function
 // let subtract = (a, b) => {
   //  let resultado = a - b;
    // return resultado
@@ -36,4 +60,4 @@ let x = sum(25, 60)
 //let y = subtract(59, 30)
 
 console.log(x)
-console.log(y)
+//console.log(y) */
