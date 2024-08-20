@@ -1,9 +1,22 @@
-// tipos de variaveis:
+function avisar() {
+  alert("Opa, disparei!")
+}
 
+
+
+//criando alert
+//alert("opa aqui esta um aviso")
+
+
+
+
+// tipos de variaveis:
+/*
 let idade = 18       //tipo number
 let nome = "boniec"  //tipo string
 let logado = true    //tipo boolean
- 
+ */
+
 //Novo Tema: Criando condicionais de execução
 //if (idade == 18) {
   //  console.log("Parabéns, agora vc pode ser preso!")
@@ -18,13 +31,13 @@ for(let item of lista)
 }*/
 
 // outro exemplo:
-let lista = ["Farinha", "Fubá", "Açucar", "Sal"]
+/*let lista = ["Farinha", "Fubá", "Açucar", "Sal"]
 
 for(let item of lista)
 {
-  console.log(item)
+  console.log("- ingrediente: olha ai- " + item)
 } 
-
+*/
 
 //outro exemplo:
 /*if(nome == "bonieco") {
