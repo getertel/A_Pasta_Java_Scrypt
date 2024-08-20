@@ -9,12 +9,30 @@ let logado = true    //tipo boolean
   //  console.log("Parabéns, agora vc pode ser preso!")
 //}
 
+//Tema: executando looping
+/*let lista = [10, 20, 30, 40]
+
+for(let item of lista)
+{
+  console.log(item)
+}*/
+
+// outro exemplo:
+let lista = ["Farinha", "Fubá", "Açucar", "Sal"]
+
+for(let item of lista)
+{
+  console.log(item)
+} 
+
+
 //outro exemplo:
-if(nome == "bonieco") {
+/*if(nome == "bonieco") {
   console.log("mensagem especial")
 } else {
   console.log("mensagem normal")
-}
+}*/
+
 
  //alguns tipos de condicionais
  /* ==
