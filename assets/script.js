@@ -1,7 +1,12 @@
 function avisar() {
   alert("Opa, disparei!")
 }
+//configuração de botão
+let botao = document.querySelector("#bota")
 
+documento.addEventListenner("click", ()=> {
+  avisar()
+})
 
 
 //criando alert
