@@ -5,6 +5,7 @@ function avisar() {
 // Configuração do botão
 let botao = document.querySelector("#botao");
 
-botao.addEventListener("click", () => {
+//utilizando o "mouseover"
+botao.addEventListener("mouseover", () => {
   avisar();
 });
