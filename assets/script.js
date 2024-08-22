@@ -1,4 +1,4 @@
-let dolar = 5.48
+let dolar = 5.51
 
 let usdInput = document.querySelector("#usd")
 let brlInput = document.querySelector("#brl")
@@ -10,6 +10,15 @@ usdInput.addEventListener("keyup", () => {
 
 brlInput.addEventListener("keyup", () => {
   convert("brl-to-usd");
+});
+
+// adicionando o "blur"(por ultimo)
+usdInput.addEventListener("blur", () => {
+   usdInput.value = formatCurrency(usdInput.value)
+});
+
+brlInput.addEventListener("blur", () => {
+   brlInput.value = formatCurrency(brlInput.value) 
 });
 
 usdInput.value = "1000.00"
@@ -60,7 +69,7 @@ function convert(type) {
      let result = fixedValue / dolar;
      result = result.toFixed(2);
 
-      // mostra no campo de dolar
+      // mostra no campo de dolar "exibindo valor formatado para a moeda"
       usdInput.value = formatCurrency(result);
       
 
