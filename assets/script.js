@@ -1,11 +1,11 @@
-function avisar() {
-  alert("Opa, disparei!");
-}
+let usdInput = document.querySelector("#usd")
+let brlInput = document.querySelector("#brl")
 
-// Configuração do botão
-let botao = document.querySelector("#botao");
+//teste de campo de uso
+usdInput.addEventListener("keyup", () => {
+   console.log("apertou no campo uso")
+})
 
-//utilizando o "click"
-botao.addEventListener("click", () => {
-  avisar();
-});
+brlInput.addEventListener("keyup", () => {
+   console.log("apertou no campo BRL")
+})
